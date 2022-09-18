@@ -1,16 +1,6 @@
-package Practica2;
+public int canDigitosPares(int num) {
 
-import java.util.Arrays;
-
-public class Prac2 {
-	
-	public Prac2() {
-		// TODO Auto-generated constructor stub
-	}
-	//a
-	public int canDigitosPares(int num) {
-		
-			int cont = 0;										//1
+		int cont = 0;											//1
 
 		while(num != 0) {										//n2
 			if(num % 2 == 0) 
@@ -20,6 +10,8 @@ public class Prac2 {
 		}
 
 		return cont;											//1
+//COMPLEJIDAD ESPACIAL == 24 + n2
+//COMPLEJIDAD TEMPORAL == 1 + n2 + 1 + 1
 	}
 
 	public boolean palindromo(String texto) {
@@ -34,6 +26,8 @@ public class Prac2 {
 		}
 
 		return es;											//1
+//COMPLEJIDAD ESPACIAL == 20 + n2 + 1
+//COMPLEJIDAD TEMPORAL == 1 + 1 + 1 + n2 + 1
 	}
 
 	public boolean numCapicua(int numero) {
@@ -49,6 +43,8 @@ public class Prac2 {
 		}
 
 		return es;											//1
+//COMPLEJIDAD ESPACIAL == n2 + 1 + 4
+//COMPLEJIDAD TEMPORAL == 1 + 1 + 1 + 1 + n2 + 1
 	}
 
 	public int RepiteFlotante(float arreglo [], float busca) {	
@@ -57,7 +53,9 @@ public class Prac2 {
 			if (arreglo[i] == busca) 
 				repite++;									
 		}
-		return repite;											//1		
+		return repite;											//1	
+//COMPLEJIDAD ESPACIAL == 1 + n2 + 1 + 4
+//COMPLEJIDAD TEMPORAL	== n2 + 3
 	}
 
 	public int [] ordenaChaquiras(int chaquira[]) {
@@ -76,12 +74,8 @@ public class Prac2 {
 		return chaquira;										//2
 	}
 
-		//COMPLEJIDAD ESPACIAL 21 +  n6 + 2
-		//COMPLEJIDAD TEMPORAL 1 + n2 + 1 + 1 + 1 + 1 + n2 + 7 + 1 + 1 + 1 + n2 + 1 + 6 + n2 + 2
-
-
-	
-
-	
+		
+//COMPLEJIDAD ESPACIAL == 1 + n2 + 16 + 8
+//COMPLEJIDAD TEMPORAL == 2 + 2 +1 + n2 + 2
 
 }
