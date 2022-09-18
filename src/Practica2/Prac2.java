@@ -7,7 +7,7 @@ public class Prac2 {
 	public Prac2() {
 		// TODO Auto-generated constructor stub
 	}
-	
+	//a
 	public int canDigitosPares(int num) {
 		
 		int cont = 0;
